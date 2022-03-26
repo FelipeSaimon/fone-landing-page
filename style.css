@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#superior{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px 10px;
+}
+
+#superior img{
+    width: 50px;
+}
+
+#lista-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lista-menu li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+#corpo{
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#corpo img{
+    width: 300px;
+
+}
+
+#formulario h1{
+    color: #ca3b3a;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+
+
+.elemento{
+    margin: 10px 0px;
+}
+
+#votacao{
+    color: #ca3b3a;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.titulo{
+    font-weight: 700;
+}
+
+#preco{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#preco button{
+    background-color: #ca3b3a;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+#preco p{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(244, 252, 203);
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+footer p{
+    width: 250px;
+}
