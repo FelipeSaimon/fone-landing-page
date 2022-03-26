@@ -13,14 +13,75 @@ body{
 #superior{
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     margin: 5px 10px;
 }
 
+#lista-menu li{
+    cursor: pointer;
+}
+
+/* Copiado da internet*/
+
+.item-menu {
+    display: inline-block;
+    position: relative;
+  }
+  .item-menu::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ca3b3a;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+  .item-menu:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+/*------------------- */
+
 #superior img{
     width: 50px;
+}
+
+#search-buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+}
+
+#search-buy svg{
+
+    margin-left: 15px;
+}
+
+#retratil{
+    width: 33px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    margin-right: 20px;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.retri div{
+    width: 20px;
+    height: 3px;
+    background: rgb(51, 51, 51) none repeat scroll 0% 0%;
+    margin-top: 3px;
 }
 
 #lista-menu{
@@ -85,6 +146,12 @@ body{
     border: none;
     padding: 10px 20px;
     color: #fff;
+    cursor: pointer;
+}
+
+
+#preco button:hover{
+    background-color:  #404040;
 }
 
 #preco p{
@@ -103,6 +170,10 @@ footer{
     font-size: 15px;
 }
 
+
+footer svg{
+    margin-right: 12px;
+}
 
 footer p{
     width: 250px;
